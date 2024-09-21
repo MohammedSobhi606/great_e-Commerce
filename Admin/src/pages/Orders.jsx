@@ -14,7 +14,7 @@ function Orders() {
   const getAllOrders = async () => {
     try {
       const response = await axios.get(
-        "https://great-e-commerce.vercel.app/api/order/Order_list_admin"
+       ` https://great-e-commerce.vercel.app/api/order/Order_list_admin`
       );
       const order = response.data.orders;
       setOrders(order);
