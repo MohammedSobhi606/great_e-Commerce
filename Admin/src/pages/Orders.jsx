@@ -26,7 +26,7 @@ function Orders() {
   const changeOrderStatus = async (orderId, status) => {
     try {
       const response = await axios.post(
-        `http://localhost:5000/api/order/update_status`,
+        `https://great-e-commerce.vercel.app/order/update_status`,
         { status, orderId },
         { headers: { token } }
       );
