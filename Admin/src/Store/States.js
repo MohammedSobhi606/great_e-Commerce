@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import { toast } from "react-toastify";
 const initialState = {
   token: "",
-  baseurl: "http://localhost:5000",
+  baseurl: "https://great-e-commerce.vercel.app",
   isLoading: false,
 };
 const States = createSlice({
