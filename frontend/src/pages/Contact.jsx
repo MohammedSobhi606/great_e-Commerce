@@ -1,7 +1,7 @@
 import React from "react";
 import { assets } from "../assets/assets";
 import Title from "../Components/Title";
-// import NewsletterBox from "../Components/NewsletterBox";
+import NewsletterBox from "../Components/NewsletterBox";
 function Contact() {
   return (
     <div>
@@ -69,7 +69,7 @@ function Contact() {
           </button>
         </div>
       </div>
-      {/* <NewsletterBox /> */}
+      <NewsletterBox />
     </div>
   );
 }
