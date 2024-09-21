@@ -39,7 +39,7 @@ function Orders() {
   useEffect(() => {
     getAllOrders();
   }, []);
-  console.log(Orders);
+  
   return (
     <div>
       <h1>Order Page</h1>
