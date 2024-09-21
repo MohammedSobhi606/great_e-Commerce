@@ -69,7 +69,7 @@ function Contact() {
           </button>
         </div>
       </div>
-      <NewsletterBox />
+      {/* <NewsletterBox /> */}
     </div>
   );
 }
