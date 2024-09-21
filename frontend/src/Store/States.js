@@ -4,7 +4,7 @@ const initialState = {
   showbar: false,
   searchvalue: "",
   cartItems: [],
-  baseurl: "http://localhost:5000",
+  baseurl: "https://great-e-commerce.vercel.app",
   cartCount: 0,
   wishlistCount: 0,
   totalPrice: 0,
