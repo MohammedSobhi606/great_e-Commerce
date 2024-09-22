@@ -31,7 +31,7 @@ function Collection() {
       copyProduct = copyProduct.filter((item) =>
         item.name.toLowerCase().includes(searchvalue.toLowerCase())
       );
-    }
+    } 
     if (Category.length > 0) {
       copyProduct = copyProduct.filter((item) =>
         Category.includes(item.category)
