@@ -39,7 +39,7 @@ function Collection() {
     }
     if (SubCategory.length > 0) {
       copyProduct = copyProduct.filter((item) =>
-        SubCategory.includes(item.subCategory)
+        SubCategory.includes(item.sub_category)
       );
     }
     setFilterProduct(copyProduct);
